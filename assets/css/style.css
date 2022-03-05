@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+  background-image: url(../images/header-background.svg);
+}
+
+.second-navbar {
+  background-color: #0057b2;
+}
+
+.navbar-custom {
+  margin-top: 68px;
+}
+
+.hero-text h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+#flip {
+  height: 65px;
+  overflow: hidden;
+}
+
+#flip > div h1 {
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+.desc-text .desc {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.new-article .title-text h5 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.article-link {
+  text-decoration: none;
+}
+.post-header .author p {
+  color: #29384e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.post-title h4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.post-text p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #546071;
+}
+.post-footer .categori p {
+  background-color: #e0efff;
+  padding: 2px;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #007aff;
+}
+.post-footer .date p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.post-footer .time p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.title-kategori h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.accordion-custom {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.accordion-body-custom a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+  text-decoration: none;
+}
+.pagination-text {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #007aff;
+}
