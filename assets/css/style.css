@@ -10,12 +10,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
 }
-h3 {
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 42px;
-  color: #29384e;
-}
+
 header {
   background-image: url(../images/header-background.svg);
 }
@@ -77,27 +72,22 @@ header {
     margin-top: -270px;
   }
 }
-
-.desc-text .desc {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-}
-.new-article .title-text h5 {
+.section-title {
+  font-style: normal;
+  font-weight: bold;
   font-size: 32px;
   line-height: 42px;
-  font-weight: 700;
-}
-.article-link {
-  text-decoration: none;
-}
-.post-header .author p {
   color: #29384e;
+}
+.name p {
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
-  font-weight: 400;
   line-height: 20px;
+  color: #29384e;
 }
 .post-title h4 {
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -105,13 +95,13 @@ header {
   color: #29384e;
 }
 .post-text p {
+  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #546071;
 }
-
 .categori p {
   background-color: #e0efff;
   padding: 2px;
@@ -131,7 +121,7 @@ header {
   letter-spacing: 0.005em;
   color: #29384e;
 }
-.post-footer .time p {
+.read p {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -139,13 +129,24 @@ header {
   letter-spacing: 0.005em;
   color: #29384e;
 }
-.title-kategori h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0.005em;
+.desc-text .desc {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.new-article .title-text h5 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.article-link {
+  text-decoration: none;
+}
+.post-header .author p {
   color: #29384e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
 }
 .accordion-custom {
   font-style: normal;
