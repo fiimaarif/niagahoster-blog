@@ -10,7 +10,12 @@
 body {
   font-family: "Nunito Sans", sans-serif;
 }
-
+h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #29384e;
+}
 header {
   background-image: url(../images/header-background.svg);
 }
@@ -106,7 +111,8 @@ header {
   letter-spacing: 0.02em;
   color: #546071;
 }
-.post-footer .categori p {
+
+.categori p {
   background-color: #e0efff;
   padding: 2px;
   border-radius: 15px;
@@ -117,7 +123,7 @@ header {
   letter-spacing: 0.005em;
   color: #007aff;
 }
-.post-footer .date p {
+.date p {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
