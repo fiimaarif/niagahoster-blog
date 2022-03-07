@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ede5952a7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Niagahoster</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar fixed -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-4" href="index.html"
+            ><img src="assets/images/navbar-brand.svg" alt="Navbar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-betwen"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light px-3"
+                  aria-current="page"
+                  href="#"
+                  >Hosting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" aria-current="page" href="#"
+                  >VPS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" aria-current="page" href="#"
+                  >Domain</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" aria-current="page" href="#"
+                  >Website</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" aria-current="page" href="#"
+                  >Kemitraan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" aria-current="page" href="#"
+                  >Wawasan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" aria-current="page" href="#"
+                  >Acara</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="#"
+                  ><img src="assets/images/navbar-cart.svg" alt="cart"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="#"
+                  >ID<i class="fa-solid fa-angle-down ms-2"></i
+                ></a>
+              </li>
+            </ul>
+            <button
+              class="btn btn-outline-primary rounded-pill text-light border-light ms-4 me-4 px-4"
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- Second navbar -->
+      <div
+        class="second-navbar d-flex justify-content-center align-items-center navbar-custom"
+      >
+        <nav class="navbar navbar-expand-lg navbar-light bg-none text-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link text-light me-3" href="#"
+                  >Tutorial<i class="fa-solid fa-angle-down ms-2"></i
+                ></a>
+                <a class="nav-link text-light me-3" href="#"
+                  >Digital Marketing<i class="fa-solid fa-angle-down ms-2"></i
+                ></a>
+                <a class="nav-link text-light me-3" href="#"
+                  >Web Development & Design<i
+                    class="fa-solid fa-angle-down ms-2"
+                  ></i
+                ></a>
+                <a class="nav-link text-light me-3" href="#"
+                  >Insight Bisnis<i class="fa-solid fa-angle-down ms-2"></i
+                ></a>
+                <a class="nav-link text-light me-3" href="#"
+                  >News & Update<i class="fa-solid fa-angle-down ms-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Content -->
+    <main>
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="col-lg-12 col-12 d-flex">
+            <div class="col-lg-3 col-12 mt-5 d-none d-sm-block">
+              <div class="row d-flex justify-content-center">
+                <!-- Breadcrumb Sidebar -->
+                <nav
+                  style="--bs-breadcrumb-divider: '>'"
+                  aria-label="breadcrumb"
+                >
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item breadcrumb-custom">
+                      <a class="text-decoration-none" href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item breadcrumb-custom">
+                      <a class="text-decoration-none" href="#">Tutorial</a>
+                    </li>
+                    <li class="breadcrumb-item breadcrumb-custom">
+                      <a class="text-decoration-none" href="#">Hosting</a>
+                    </li>
+                  </ol>
+                </nav>
+                <!-- Title Sidebar -->
+                <div class="article-title-sidebar">
+                  <p>4+ Cara Mudah Cek IP Hosting Website</p>
+                </div>
+                <!-- Author Sidebar -->
+                <div class="d-flex align-items-center">
+                  <div class="avatar me-2">
+                    <img src="assets/images/avatar-post.svg" />
+                  </div>
+                  <div class="name-article me-2">Nida Regita F</div>
+                </div>
+                <!-- Date & Read -->
+                <div class="d-flex align-items-center">
+                  <div class="date-article mt-2 me-3">28 Dec 2021</div>
+                  <div class="avatar mt-1 me-3">
+                    <img src="assets/images/dot.svg" />
+                  </div>
+                  <div class="read-article mt-2">5 min read</div>
+                </div>
+                <!-- Button Action Sidebar -->
+                <div class="col-lg-5 col-12 mt-3 d-flex justify-content-end">
+                  <div class="d-flex align-items-center">
+                    <div class="icon me-2">
+                      <img src="assets/images/icon-like-small.svg" />
+                    </div>
+                    <div class="text-icon-small">111</div>
+                  </div>
+                  <div class="d-flex align-items-center ms-3">
+                    <div class="icon me-2">
+                      <img src="assets/images/icon-comment-small.svg" />
+                    </div>
+                    <div class="text-icon-small me-2">4</div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="icon me-3">
+                      <img src="assets/images/icon-share-small.svg" />
+                    </div>
+                    <div class="text-icon-small">Share</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 mt-5">
+              <!-- Breadcrumb -->
+              <div class="row d-flex justify-content-center">
+                <nav
+                  style="--bs-breadcrumb-divider: '>'"
+                  aria-label="breadcrumb"
+                >
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item breadcrumb-custom">
+                      <a class="text-decoration-none" href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item breadcrumb-custom">
+                      <a class="text-decoration-none" href="#">Tutorial</a>
+                    </li>
+                    <li class="breadcrumb-item breadcrumb-custom">
+                      <a class="text-decoration-none" href="#">Hosting</a>
+                    </li>
+                    <li
+                      class="breadcrumb-item active breadcrumb-custom"
+                      aria-current="page"
+                    >
+                      4+ Cara Mudah Cek IP Hosting Website
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+
+              <!-- Article -->
+              <div class="row">
+                <div class="article-title">
+                  <p>4+ Cara Mudah Cek IP Hosting Website</p>
+                </div>
+              </div>
+              <!-- Author -->
+              <div class="row row-cols-2 d-flex justify-content-between mb-4">
+                <div class="col-lg-6 col-12 d-flex">
+                  <div class="d-flex align-items-center">
+                    <div class="avatar me-2">
+                      <img src="assets/images/avatar-post.svg" />
+                    </div>
+                    <div class="name-article me-2">Nida Regita F</div>
+                    <div class="avatar me-2">
+                      <img src="assets/images/dot.svg" />
+                    </div>
+                    <div class="date-article me-2">28 Dec 2021</div>
+                    <div class="avatar me-2">
+                      <img src="assets/images/dot.svg" />
+                    </div>
+                    <div class="read-article">5 min read</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 me-3 d-flex">
+                  <div class="d-flex align-items-center">
+                    <div class="icon me-2">
+                      <img src="assets/images/icon-like-small.svg" />
+                    </div>
+                    <div class="text-icon-small">111</div>
+                  </div>
+                  <div class="d-flex align-items-center ms-3">
+                    <div class="icon me-2">
+                      <img src="assets/images/icon-comment-small.svg" />
+                    </div>
+                    <div class="text-icon-small me-2">4</div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="icon me-3">
+                      <img src="assets/images/icon-share-small.svg" />
+                    </div>
+                    <div class="text-icon-small">Share</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Thumbnail -->
+              <div class="row">
+                <div class="thumbnail">
+                  <img class="img-fluid"
+                    src="assets/images/article-thumbnail.svg"
+                    alt="Thumbnail"
+                  />
+                </div>
+              </div>
+              <!-- article-content -->
+              <div class="row">
+                <div class="article mt-4">
+                  <p>
+                    Anda ingin tahu cara cek IP hosting? Selamat, Anda berada di
+                    halaman yang tepat!
+                  </p>
+                  <p>
+                    IP hosting adalah barisan angka sebagai identitas unik dari
+                    suatu hosting website. Dengan IP tersebut, website Anda
+                    dapat dikenali dan diakses melalui jaringan internet.
+                  </p>
+                  <p>
+                    Saat Anda mengakses website, Anda memang tidak bisa melihat
+                    IP secara langsung. Alasannya, IP tersebut sudah diwakili
+                    oleh sebuah domain agar lebih mudah diingat.
+                  </p>
+                  <p>
+                    Kalau begitu, bagaimana cara mengetahui hosting IP suatu
+                    website? Yuk, simak panduan lengkap cara cek IP web hosting
+                    di bawah ini!
+                  </p>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item rounded">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button
+                          class="accordion-button accordion-custom"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Daftar isi
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <a class="accordion-text" href="#"
+                            ><p>Cara Cek IP Hosting</p></a
+                          >
+                          <a class="accordion-sub-text" href="#"
+                            ><p class="ms-4">
+                              Melihat IP Hosting pada email informasi akun
+                              hosting
+                            </p></a
+                          >
+                          <a class="accordion-sub-text" href="#"
+                            ><p class="ms-4">
+                              Melihat IP Hosting melalui Member Area Niagahoster
+                            </p></a
+                          >
+                          <a class="accordion-sub-text" href="#"
+                            ><p class="ms-4">
+                              Melihat IP Hosting melalui cPanel
+                            </p></a
+                          >
+                          <a class="accordion-sub-text" href="#"
+                            ><p class="ms-4">Melihat IP menggunakan CMD</p></a
+                          >
+                          <a class="accordion-sub-text" href="#"
+                            ><p class="ms-4">
+                              Melihat IP dengan web-based tools
+                            </p></a
+                          >
+                          <a class="accordion-text" href="#"
+                            ><p>Kesimpulan</p></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h1 class="mt-3">Cara Cek IP Hosting</h1>
+                  <p>
+                    Anda dapat melakukan cek IP hosting dengan berbagai cara,
+                    diantaranya adalah:
+                  </p>
+                  <li>Melihat IP Hosting pada Email Informasi Akun Hosting</li>
+                  <li>Melihat IP Hosting Melalui Member Area Niagahoster</li>
+                  <li>Melihat IP Hosting Melalui cPanel</li>
+                  <li>Mengecek IP Menggunakan CMD</li>
+                  <li>Mengecek IP dengan Web-based Tools</li>
+                  <p>Nah, berikut ini penjelasan lengkapnya:</p>
+                  <h1>
+                    1. Melihat IP Hosting pada Email Informasi Akun Hosting
+                  </h1>
+                  <p>
+                    Ketika Anda membeli layanan hosting, pihak penyedia hosting
+                    akan mengirimkan email berupa informasi detail akun hosting
+                    Anda. Pada email ini, Anda bisa cek IP di bagian Informasi
+                    Akun seperti ini:
+                  </p>
+                  <h1>Kesimpulan</h1>
+                  <p>
+                    Nah, itu dia beberapa cara yang bisa anda coba untuk
+                    mengecek hosting IP website. Mulai dari melihat IP pada
+                    email yang dikirimkan ketika anda berhasil melakukan order
+                    hosting hingga cek IP hosting dengan bantuan aplikasi
+                    website
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    quia facere asperiores nostrum laudantium nam impedit
+                    voluptatum quae omnis assumenda.
+                  </p>
+                </div>
+              </div>
+              <!-- Button Subscribe -->
+              <div class="row">
+                <a class="btn-subscribe text-decoration-none mt-4" href="#"
+                  >Berlangganan Hosting Niagahoster Sekarang Juga!</a
+                >
+              </div>
+              <!-- Icon Action -->
+              <div class="row row-cols-2 mt-3 d-flex justify-content-between">
+                <div class="col-lg-4 d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <a href="#">
+                      <div class="icon me-2">
+                        <img src="assets/images/icon-like.svg" />
+                      </div>
+                    </a>
+                    <div class="text-icon">111</div>
+                  </div>
+                  <div class="d-flex align-items-center ms-3">
+                    <a href="#">
+                      <div class="icon me-2">
+                        <img src="assets/images/icon-comment.svg" />
+                      </div>
+                    </a>
+                    <div class="text-icon">4</div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="d-flex align-items-center">
+                    <a href="#">
+                      <div class="icon me-3">
+                        <img src="assets/images/icon-share.svg" />
+                      </div>
+                    </a>
+                    <div class="text-icon">Share</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Banner -->
+      <section class="banner mt-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-12 col-12 d-flex align-items-center banner-background"
+            >
+              <div class="col-lg-6 col-12 me-5">
+                <h3 class="heading">
+                  Ingin jadi yang pertama tau artikel terbaru kami?
+                </h3>
+                <h5 class="subheading">
+                  Kami akan mengirimkan pemberitahuan artikel terbaru kami
+                  melalui email Anda. Ingin mendapatkan pemberitahuan?
+                </h5>
+              </div>
+              <a class="button-custom col-lg-5 col-12 mt-3 text-center" href="#"
+                >Langganan Sekarang</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Other Article  -->
+      <section class="all-article">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-9 col-lg-12 text-center">
+              <h3>Baca Artikel Terkait</h3>
+            </div>
+          </div>
+          <div class="col-12 col-lg-12 mt-5">
+            <div class="row row-cols-4">
+              <a class="article-link" href="#">
+                <div class="col mb-5">
+                  <div class="row">
+                    <img
+                      src="assets/images/post-thumbnail.svg"
+                      alt="Thumbnail"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="avatar">
+                        <img src="assets/images/avatar-post.svg" alt="Avatar" />
+                      </div>
+                      <div class="name mt-3 ms-2"><p>Nida Regita F</p></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-title">
+                      <h4>4+ Cara Mudah Cek IP Hosting Website</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-text">
+                      <p>
+                        Anda ingin tahu cara cek IP hosting? Selamat, Anda
+                        berada di halaman yang tepat! IP hosting adalah barisan
+                        angka sebagai identitas unik dari suatu hosting ...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="categori">
+                        <p class="px-2">Hosting</p>
+                      </div>
+                      <div class="date d-flex">
+                        <img
+                          src="assets/images/dot.svg"
+                          class="mb-3 me-2 ms-2"
+                        />
+                        <p class="">5 min read</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="article-link" href="#">
+                <div class="col mb-5">
+                  <div class="row">
+                    <img
+                      src="assets/images/post-thumbnail.svg"
+                      alt="Thumbnail"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="avatar">
+                        <img src="assets/images/avatar-post.svg" alt="Avatar" />
+                      </div>
+                      <div class="name mt-3 ms-2"><p>Nida Regita F</p></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-title">
+                      <h4>4+ Cara Mudah Cek IP Hosting Website</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-text">
+                      <p>
+                        Anda ingin tahu cara cek IP hosting? Selamat, Anda
+                        berada di halaman yang tepat! IP hosting adalah barisan
+                        angka sebagai identitas unik dari suatu hosting ...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="categori">
+                        <p class="px-2">Hosting</p>
+                      </div>
+                      <div class="date d-flex">
+                        <img
+                          src="assets/images/dot.svg"
+                          class="mb-3 me-2 ms-2"
+                        />
+                        <p class="">5 min read</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="article-link" href="#">
+                <div class="col mb-5">
+                  <div class="row">
+                    <img
+                      src="assets/images/post-thumbnail.svg"
+                      alt="Thumbnail"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="avatar">
+                        <img src="assets/images/avatar-post.svg" alt="Avatar" />
+                      </div>
+                      <div class="name mt-3 ms-2"><p>Nida Regita F</p></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-title">
+                      <h4>4+ Cara Mudah Cek IP Hosting Website</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-text">
+                      <p>
+                        Anda ingin tahu cara cek IP hosting? Selamat, Anda
+                        berada di halaman yang tepat! IP hosting adalah barisan
+                        angka sebagai identitas unik dari suatu hosting ...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="categori">
+                        <p class="px-2">Hosting</p>
+                      </div>
+                      <div class="date d-flex">
+                        <img
+                          src="assets/images/dot.svg"
+                          class="mb-3 me-2 ms-2"
+                        />
+                        <p class="">5 min read</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="article-link" href="#">
+                <div class="col mb-5">
+                  <div class="row">
+                    <img
+                      src="assets/images/post-thumbnail.svg"
+                      alt="Thumbnail"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="avatar">
+                        <img src="assets/images/avatar-post.svg" alt="Avatar" />
+                      </div>
+                      <div class="name mt-3 ms-2"><p>Nida Regita F</p></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-title">
+                      <h4>4+ Cara Mudah Cek IP Hosting Website</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="post-text">
+                      <p>
+                        Anda ingin tahu cara cek IP hosting? Selamat, Anda
+                        berada di halaman yang tepat! IP hosting adalah barisan
+                        angka sebagai identitas unik dari suatu hosting ...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="author d-flex flex-row align-items-center">
+                      <div class="categori">
+                        <p class="px-2">Hosting</p>
+                      </div>
+                      <div class="date d-flex">
+                        <img
+                          src="assets/images/dot.svg"
+                          class="mb-3 me-2 ms-2"
+                        />
+                        <p class="">5 min read</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Banner Bottom -->
+      <section class="banner-bottom">
+        <div class="row">
+          <div class="col-lg-12 mt-5">
+            <div class="banner-title">
+              <h2>Awali Kesuksesan Anda Bersama Niagahoster</h2>
+            </div>
+            <div class="banner-desc mt-5">
+              <p>
+                Kini tidak lagi sulit mewujudkan website impian. Performa hebat,
+                keamanan ekstra, dan <br />
+                layanan dukungan teknis yang bisa diandalkan - semua dengan
+                harga terjangkau!
+              </p>
+            </div>
+            <div class="banner-button text-center mb-5 mt-5">
+              <a href="#">Mulai Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-flex">
+            <div class="col-lg-3 col-3 mt-5">
+              <div class="footer-title">Web Hosting</div>
+              <div class="footer-text">
+                <p>Hosting Indonesia</p>
+                <p>Cloud Hosting</p>
+                <p>Email Hosting</p>
+                <p>Web Hosting Unlimited</p>
+                <p>Hosting Terbaik</p>
+                <p>Hosting Murah</p>
+                <p>Hosting Singapore SG</p>
+                <p>Keamanan SSL/HTTPS</p>
+                <p>Data Center Hosting Terbaik</p>
+                <p>Hosting Gratis</p>
+                <p>Transfer Hosting</p>
+              </div>
+              <div class="footer-title mt-3">Domain</div>
+              <div class="footer-text">
+                <p>Domain</p>
+                <p>Domain .ID</p>
+                <p>Domain Gratis</p>
+                <p>Promosi Domain .COM</p>
+                <p>WHOIS</p>
+                <p>Transfer Domain</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3 mt-5">
+              <div class="footer-title">Virtual Private Server</div>
+              <div class="footer-text">
+                <p>VPS KVM Indonesia</p>
+                <p>Cloud VPS Hosting</p>
+                <p>CyberPanel VPS Hosting</p>
+              </div>
+              <div class="footer-title mt-3">WordPress Hosting</div>
+              <div class="footer-text">
+                <p>WordPress Hosting</p>
+                <p>Managed WordPress</p>
+              </div>
+              <div class="footer-title mt-3">Website</div>
+              <div class="footer-text">
+                <p>Website Instan</p>
+                <p>Jasa Pembuatan Website</p>
+              </div>
+              <div class="footer-title mt-3">Bantuan</div>
+              <div class="footer-text">
+                <p>Cara Pembayaran</p>
+                <p>Ebook Gratis</p>
+                <p>Knowledge Base</p>
+                <p>Niagahoster Blog</p>
+                <p>Niagahoster Course</p>
+                <p>Niagahoster Forum</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3 mt-5">
+              <div class="footer-title">Kemitraan</div>
+              <div class="footer-text">
+                <p>Niagahoster Poin</p>
+                <p>Niagahoster Partner</p>
+                <p>Program Afiliasi Niagahoster</p>
+              </div>
+              <div class="footer-title mt-3">Perusahaan</div>
+              <div class="footer-text">
+                <p>Tentang Niagahoster</p>
+                <p>Kontak</p>
+                <p>Karir</p>
+                <p>Event</p>
+                <p>Status Layanan</p>
+                <p>Review Pelanggan</p>
+                <p>Penawaran & Promo Spesial</p>
+                <p>Niagahoster Virtual Summit</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3 mt-5 text-light">
+              <div class="footer-brand col-3">
+                <img src="assets/images/niagahoster-logo.svg" alt="Brand" />
+              </div>
+              <div class="footer-text mt-3">
+                <p>
+                  Misi kami adalah membantu jutaan orang memanfaatkan potensi
+                  yang ada di internet untuk membangun kesuksesan online.
+                </p>
+                <p class="mt-4">
+                  Jl. Palagan Tentara Pelajar No 81 Jongkang, Sariharjo,
+                  Ngaglik, Sleman Daerah Istimewa Yogyakarta 55581
+                </p>
+                <p class="mt-4">Telepon: 0274-2885822</p>
+                <p>WhatsApp: 085943258274</p>
+                <p>Telegram: @niagahost_bot</p>
+              </div>
+              <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-2">
+                <div class="col">
+                  <a href="#"
+                    ><img src="assets/images/logo-fb.svg" alt="logo"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a href="#"
+                    ><img src="assets/images/logo-ig.svg" alt="logo"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a href="#"
+                    ><img src="assets/images/logo-linkedin.svg" alt="logo"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a href="#"
+                    ><img src="assets/images/logo-twitter.svg" alt="logo"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a href="#"
+                    ><img src="assets/images/logo-tiktok.svg" alt="logo"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a href="#"
+                    ><img src="assets/images/logo-yt.svg" alt="logo"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-end text-light">
+          <div class="col-lg-6 col-12 footer-title">Newsletter</div>
+          <div class="row row-cols-2 d-flex justify-content-end">
+            <div class="col-lg-3 col-12">
+              <form action="">
+                <div class="input-group footer-input">
+                  <input
+                    id="button-addon1"
+                    placeholder="Write your input here"
+                    type="search"
+                    class="form-control rounded-pill border-0 bg-none"
+                    style="height: 45px"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-3 col-12 sm mt-2">
+              <a class="footer-button" href="#">Berlangganan</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12 col-12">
+            <hr class="text-secondary" />
+          </div>
+        </div>
+        <div class="row row-cols-2 mt-2">
+          <div class="col-lg-9 col-12">
+            <a class="footer-cta" href="https://www.niagahoster.co.id/"
+              ><p>
+                Copyright ©2021 Niagahoster | Hosting powered by PHP8,
+                CloudLinux, CloudFlare, BitNinja and DC DCI-Indonesia | Cloud
+                VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud
+                computing technology
+              </p></a
+            >
+          </div>
+          <div class="col-lg-3 col-12">
+            <a class="footer-cta" href="https://www.niagahoster.co.id/"
+              ><p>Syarat dan Ketentuan | Kebijakan Privasi</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
