@@ -528,3 +528,11 @@ footer {
 #close {
   cursor: pointer;
 }
+.sticky-search {
+  position: sticky;
+  top: 6rem;
+}
+.left-sidebar {
+  position: sticky;
+  top: 6rem;
+}

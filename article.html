@@ -151,7 +151,9 @@
         <div class="row row-cols-3">
           <div class="col-lg-12 col-12 d-flex">
             <div class="col-lg-3 col-12 mt-5 d-none d-sm-block">
-              <div class="row d-flex justify-content-center">
+              <div
+                class="row d-flex justify-content-center left-sidebar d-none"
+              >
                 <!-- Breadcrumb Sidebar -->
                 <nav
                   style="--bs-breadcrumb-divider: '>'"
@@ -424,7 +426,7 @@
                   </div>
                   <div class="d-flex align-items-center ms-3">
                     <a href="#">
-                      <div class="icon me-2">
+                      <div class="icon me-2" id="comment">
                         <img src="assets/images/icon-comment.svg" />
                       </div>
                     </a>
@@ -443,7 +445,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-12 mt-5 d-none d-sm-block">
+            <div class="col-lg-3 col-12 mt-5 d-none comment-sidebar">
               <div class="container">
                 <!-- Header Reply -->
                 <div class="header-reply d-flex justify-content-between">
@@ -455,9 +457,9 @@
                     <div class="reply-number">15</div>
                   </div>
                   <div class="icon-close">
-                    <button class="close" id="close">
-                      <img src="assets/images/icon-close.svg" />
-                    </button>
+                    <div class="close">
+                      <img id="close" src="assets/images/icon-close.svg" />
+                    </div>
                   </div>
                 </div>
                 <!-- Form Reply -->
@@ -1012,4 +1014,5 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"
   ></script>
+  <script src="assets/js/script.js"></script>
 </html>
