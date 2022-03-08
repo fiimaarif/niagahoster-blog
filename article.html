@@ -148,7 +148,7 @@
     <!-- Content -->
     <main>
       <div class="container">
-        <div class="row row-cols-2">
+        <div class="row row-cols-3">
           <div class="col-lg-12 col-12 d-flex">
             <div class="col-lg-3 col-12 mt-5 d-none d-sm-block">
               <div class="row d-flex justify-content-center">
@@ -286,7 +286,8 @@
               <!-- Thumbnail -->
               <div class="row">
                 <div class="thumbnail">
-                  <img class="img-fluid"
+                  <img
+                    class="img-fluid"
                     src="assets/images/article-thumbnail.svg"
                     alt="Thumbnail"
                   />
@@ -442,17 +443,161 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-3 col-12 mt-5 d-none d-sm-block">
+              <div class="container">
+                <!-- Header Reply -->
+                <div class="header-reply d-flex justify-content-between">
+                  <div class="icon-reply d-flex">
+                    <div class="reply-icon me-2">
+                      <img src="assets/images/icon-reply.svg" />
+                    </div>
+                    <div class="reply-text me-2">Balasan</div>
+                    <div class="reply-number">15</div>
+                  </div>
+                  <div class="icon-close">
+                    <button class="close" id="close">
+                      <img src="assets/images/icon-close.svg" />
+                    </button>
+                  </div>
+                </div>
+                <!-- Form Reply -->
+                <div class="content-button mt-3">
+                  <form action="">
+                    <div class="input-group">
+                      <textarea
+                        class="form-control"
+                        aria-label="With textarea"
+                        style="height: 120px"
+                      ></textarea>
+                    </div>
+                    <div class="button d-flex justify-content-end mt-3">
+                      <button type="reset" class="btn text-primary fw-bold">
+                        Cancel
+                      </button>
+                      <button
+                        type="submit"
+                        class="rounded-pill text-light fw-bold bg-warning btn btn-custom"
+                      >
+                        Comment
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <!-- Hr -->
+                <hr class="text-secondary mt-3" />
+                <!-- Reply text -->
+                <div class="user-reply d-flex align-items-center">
+                  <div class="user-reply-avatar me-2">
+                    <img src="assets/images/user-reply.svg" />
+                  </div>
+                  <div class="user-reply-name">
+                    <div class="user-name">Adam Muiz</div>
+                    <div class="reply-date">29 hari yang lalu</div>
+                  </div>
+                </div>
+                <div class="user-reply-text mt-3">
+                  makasih kak udah berbagi informasi hehe
+                </div>
+                <div class="user-reply-action mt-3 d-flex">
+                  <div class="user-reply-like me-3">
+                    <img src="assets/images/user-reply-like.svg" />
+                  </div>
+                  <div class="user-reply-share">
+                    <img src="assets/images/user-reply-share.svg" />
+                  </div>
+                </div>
+                <!-- Hr -->
+                <hr class="text-secondary mt-3" />
+                <!-- Reply text -->
+                <div class="user-reply d-flex align-items-center">
+                  <div class="user-reply-avatar me-2">
+                    <img src="assets/images/user-reply.svg" />
+                  </div>
+                  <div class="user-reply-name">
+                    <div class="user-name">Adam Muiz</div>
+                    <div class="reply-date">29 hari yang lalu</div>
+                  </div>
+                </div>
+                <div class="user-reply-text mt-3">
+                  Lagi coba host-tracker trial 30 day, bisa mantau uptime
+                  webiste, cukup membantu. Sebenarnya kalau mantau juga bisa
+                  pakai JetPack, cuma karena berhubung pluginnya berat jadi cari
+                  alternatif lain buat pantau.
+                </div>
+                <div class="user-reply-action mt-3 d-flex">
+                  <div class="user-reply-like me-3">
+                    <img src="assets/images/user-reply-like.svg" />
+                  </div>
+                  <div class="user-reply-share">
+                    <img src="assets/images/user-reply-share.svg" />
+                  </div>
+                </div>
+                <!-- Hr -->
+                <hr class="text-secondary mt-3" />
+                <!-- Reply text -->
+                <div class="replied">
+                  <div class="user-reply d-flex align-items-center">
+                    <div class="user-reply-avatar me-2">
+                      <img src="assets/images/user-reply.svg" />
+                    </div>
+                    <div class="user-reply-name">
+                      <div class="user-name">Adam Muiz</div>
+                      <div class="reply-date">29 hari yang lalu</div>
+                    </div>
+                  </div>
+                  <div class="user-reply-text mt-3">
+                    kalau untuk cek kesehatan websitenya sendiri bagaimana gan ?
+                  </div>
+                  <div
+                    class="user-reply-footer d-flex justify-content-between align-items-center"
+                  >
+                    <div class="user-reply-action mt-3 d-flex">
+                      <div class="user-reply-like me-3">
+                        <img src="assets/images/user-reply-like.svg" />
+                      </div>
+                      <div class="user-reply-share me-2">
+                        <img src="assets/images/user-reply-share.svg" />
+                      </div>
+                      <div class="user-reply-share-count">1</div>
+                    </div>
+                    <div class="user-reply-replied mt-3">
+                      Sembunyikan Balasan
+                    </div>
+                  </div>
+                  <div
+                    class="reply-from mt-2 ms-3 border-3 border-start border-primary"
+                  >
+                    <div class="user-reply d-flex align-items-center">
+                      <div class="user-reply-avatar ms-2 me-2">
+                        <img src="assets/images/user-reply.svg" />
+                      </div>
+                      <div class="user-reply-name">
+                        <div class="user-name">Adam Muiz</div>
+                        <div class="reply-date">29 hari yang lalu</div>
+                      </div>
+                      <div class="user-role ms-3">Author</div>
+                    </div>
+                    <div class="reply-from-text">
+                      Bisa melakukan pengecekan melalui Urlvoid atau fitur
+                      secamanya, bisa juga melalui google di url
+                      <a
+                        href="http://www.google.com/safebrowsing/diagnostic?site=namasiteanda"
+                        >link ini</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!-- Section Banner -->
-      <section class="banner mt-5">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-lg-12 col-12 d-flex align-items-center banner-background"
-            >
-              <div class="col-lg-6 col-12 me-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12 mt-5 banner-background">
+            <div class="row row-cols-2 d-flex align-items-center">
+              <div class="col-lg-7 col-12">
                 <h3 class="heading">
                   Ingin jadi yang pertama tau artikel terbaru kami?
                 </h3>
@@ -461,13 +606,13 @@
                   melalui email Anda. Ingin mendapatkan pemberitahuan?
                 </h5>
               </div>
-              <a class="button-custom col-lg-5 col-12 mt-3 text-center" href="#"
-                >Langganan Sekarang</a
-              >
+              <div class="col-lg-4 col-12 button-custom text-center">
+                <a href="#">Langganan Sekarang</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <!--Other Article  -->
       <section class="all-article">
         <div class="container">

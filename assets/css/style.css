@@ -463,3 +463,68 @@ footer {
   letter-spacing: 0.005em;
   color: #29384e;
 }
+.reply-text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.reply-number {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  color: #007aff;
+}
+.user-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.reply-date {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #7f8895;
+}
+.user-reply-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+.user-reply-share-count {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #546071;
+}
+.user-reply-replied {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #007aff;
+}
+.user-role {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #007aff;
+}
+.reply-from-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #29384e;
+}
+#close {
+  cursor: pointer;
+}
